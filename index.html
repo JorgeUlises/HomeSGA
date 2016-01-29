@@ -35,19 +35,25 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-inverse" role="navigation"><!--navbar-fixed-top-->
+  <nav class="navbar" role="navigation">
+    <div id="imagenfondo">
+    <!--navbar-fixed-top-->
     <div class="container">
       <!-- Image Background Page Header -->
       <!-- Note: The background image is set within the business-casual.css file. -->
       <header class="business-header">
         <div class="container">
           <div class="row">
-            <div class="col-lg-10">
-              <h1 class="tagline">PAULO CESAR CORONADO SANCHEZ</h1>
+            <div class="col-sm-2">
+              <img src="images/escudo.png" alt="Perfil" class="hidden-xs hidden-sm img-responsive img-rounded escudo"/>
+            </div>
+            <div class="col-sm-8">
+              <h1 class="nameline">PAULO CESAR CORONADO SANCHEZ</h1>
+              <h1 class="titleline">Msc. Teleinformática</h1>
               <h1 class="closesession">Cerrar Sesión</h1>
             </div>
             <div class="col-lg-2">
-              <img class="profilepicture" src="images/profile.png" alt="Perfil" />
+              <img src="images/profile.png" alt="Perfil" class="hidden-xs hidden-sm hidden-md img-responsive img-rounded profilepicture"/>
             </div>
           </div>
         </div>
@@ -65,26 +71,55 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-          <li><a href="#">Link</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Datos personales <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li class="divider"></li>
-              <li class="nav-header">Nav header</li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+              <li><a href="#">Actualizar Datos</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plan de Trabajo <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Mi plan de trabajo</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Datos personales <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Actualizar Datos</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Reglamentación</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Asignación Académica <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Asignaturas</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Consejerías <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Consejerías</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Auto Evaluación <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Auto Evaluación</a></li>
+              <li><a href="#">Observaciones de estudiante</a></li>
+              <li><a href="#">Resultados Evaluaciones</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Captura de Notas <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Lista de clases</a></li>
+              <li><a href="#">Captura de notas pregrado</a></li>
+              <li><a href="#">Captura de notas postgrado</a></li>
+              <li><a href="#">Vacacionales</a></li>
+              <li><a href="#">Notas periodo anterior</a></li>
             </ul>
           </li>
         </ul>
@@ -92,6 +127,7 @@
       <!-- /.navbar-collapse -->
     </div>
     <!-- /.container -->
+  </div>
   </nav>
 
 
@@ -109,7 +145,6 @@
         <h1>Notificaciones</h1>
       </div>
     </div>
-
     <!-- /.row -->
 
     <div class="row">
@@ -120,8 +155,6 @@
         <h1>Noticias</h1>
       </div>
     </div>
-
-
     <!-- /.row -->
 
     <hr>
@@ -130,25 +163,64 @@
     <footer>
       <div class="container text-left">
         <div class="row">
-  <div class="col-lg-6">
-    <div class="input-group">
-      <span class="input-group-btn">
-        <button class="btn btn-default" type="button">Go!</button>
-      </span>
-      <input type="text" class="form-control" placeholder="Search for...">
-    </div><!-- /input-group -->
-  </div><!-- /.col-lg-6 -->
-  <div class="col-lg-6">
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Search for...">
-      <span class="input-group-btn">
-        <button class="btn btn-default" type="button">Go!</button>
-      </span>
-    </div><!-- /input-group -->
-  </div><!-- /.col-lg-6 -->
-</div><!-- /.row -->
+          <div class="col-lg-6">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">Go!</button>
+              </span>
+            </div>
+            <!-- /input-group -->
+          </div>
+          <!-- /.col-lg-6 -->
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-6">
+                <a class="btn btn-block btn-social btn-twitter">
+                  <span class="fa fa-twitter"></span>Twitter
+                </a>
+              </div>
+              <div class="col-lg-6">
+                <a class="btn btn-block btn-social btn-facebook">
+                  <span class="fa fa-facebook"></span>Facebook
+                </a>
+              </div>
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.col-lg-6 -->
+        </div>
+        <!-- /.row -->
       </div>
-      <!-- /.row -->
+      <!-- /.container -->
+      <div class="container text-center footer-logos">
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="https://oas.udistrital.edu.co/kyron/blocks/gui/inicio//imagenes/kyron.png" alt="Smiley face" class="img-responsive img-rounded">
+          </div>
+          <!-- /.col-lg-3 -->
+          <div class="col-lg-3">
+            <img src="" alt="ARKA" class="img-responsive" />
+          </div>
+          <!-- /.col-lg-3 -->
+          <div class="col-lg-3">
+            <img src="" alt="POLUX" class="img-responsive" />
+          </div>
+          <!-- /.col-lg-3 -->
+          <div class="col-lg-3">
+            <img src="" alt="TITAN" class="img-responsive" />
+          </div>
+          <!-- /.col-lg-3 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+      <div class="container text-center">
+        <p>
+          <a href="https://www.udistrital.edu.co/">Universidad Distrital Francisco José de Caldas</a> PBX: 3239300. Todos los derechos reservados ©. .:: <a href="http://condor2.udistrital.edu.co/appserv/terminos_y_condiciones.pdf">Términos, condiciones de uso y política de privacidad</a> ::..
+        </p>
+      </div>
+      <!-- /.container -->
     </footer>
 
   </div>
@@ -159,6 +231,9 @@
 
   <!-- Bootstrap Core JavaScript -->
   <script src="js/bootstrap.min.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/miscript.js"></script>
 
 </body>
 
