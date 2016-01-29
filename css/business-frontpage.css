@@ -20,8 +20,9 @@ footer a {
   color: #00008B;
 }
 .footer-logos > * > * > img{
-  background-color: #0095dd;
+  /*background-color: #0095dd;*/
   color: #eee;
+  padding: 30px;
 }
 .navbar{
   background-color: #0095dd;

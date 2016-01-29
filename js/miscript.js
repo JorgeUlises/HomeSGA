@@ -19,6 +19,6 @@ function cambiarImagen(){
       $('#imagenfondo').fadeIn('slow');
   });
 }
-setInterval(cambiarImagen, 60000);
+setInterval(cambiarImagen, 30000);
 
 });
