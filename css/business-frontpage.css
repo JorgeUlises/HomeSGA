@@ -29,6 +29,9 @@ footer a {
 #imagenfondo{
   background-image: url("../images/header.png");
   background-repeat: repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 .navbar a{
   color: #eee;
