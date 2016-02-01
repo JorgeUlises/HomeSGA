@@ -21,4 +21,10 @@ function cambiarImagen(){
 }
 setInterval(cambiarImagen, 30000);
 
+// var img = '<iframe frameborder="0" scrolling="no" height="220" width="420" src="http://dxlite.g7vjr.org/?dx=LU5DX&limit=10"></iframe>';
+// $("#blob").popover({title: 'Last 10 spots for the selected station', content: img, html:true});
+$('[rel="popover"]').popover();
+
+$(".fb_iframe_widget span iframe[style]").contents().find('_2p3a').css("width","100%");
+
 });
